@@ -1,39 +1,38 @@
-# Turborepo starter with pnpm
+![next.js](https://img.shields.io/static/v1?label=NEXT&labelColor=2cd039&message=FRONTEND&color=000000&logo=next.js&logoColor=ffffff&style=flat-square)
+![FASTIFY](https://img.shields.io/static/v1?label=FASTIFY&labelColor=2cd039&message=BACKEND&color=000000&logo=FASTIFY&logoColor=ffffff&style=flat-square)
+![TURBOREPO](https://img.shields.io/static/v1?label=TURBO&labelColor=2cd039&message=REPO&color=000000&logo=TURBOREPO&logoColor=ffffff&style=flat-square)
 
-This is an official starter turborepo.
+# OMNILINK
 
-## What's inside?
+Save links from anywhere at anytime
 
-This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
+## About the repository
+
+This is a monorepo that uses turborepo. In that project turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: A [Next.js](https://nextjs.org) app for the frontend
+- `backend`: A [Fastify](https://www.fastify.io/) app for the backend since I'm not using NextJS API routes this time
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Each package/app is 100% ![TYPESCRIPT](https://img.shields.io/static/v1?label=&labelColor=2cd039&message=+TYPESCRIPT&color=000000&logo=TYPESCRIPT&logoColor=ffffff&style=flat-square).
 
 ### Utilities
 
-This turborepo has some additional tools already setup for you:
+This turborepo has some additional tools already setup:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
-
-## Setup
-
-This repository is used in the `npx create-turbo@latest` command, and selected when choosing which package manager you wish to use with your monorepo (pnpm).
 
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd omnilink
 pnpm run build
 ```
 
@@ -42,7 +41,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd omnilink
 pnpm run dev
 ```
 
@@ -53,7 +52,7 @@ Turborepo can use a technique known as [Remote Caching](https://turborepo.org/do
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd omnilink
 pnpx turbo login
 ```
 
@@ -64,14 +63,3 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 ```
 pnpx turbo link
 ```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
