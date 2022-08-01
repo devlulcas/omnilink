@@ -1,23 +1,26 @@
 ![next.js](https://img.shields.io/static/v1?label=NEXT&labelColor=2cd039&message=FRONTEND&color=000000&logo=next.js&logoColor=ffffff&style=flat-square)
-![FASTIFY](https://img.shields.io/static/v1?label=FASTIFY&labelColor=2cd039&message=BACKEND&color=000000&logo=FASTIFY&logoColor=ffffff&style=flat-square)
+![GO](https://img.shields.io/static/v1?label=GO&labelColor=2cd039&message=BACKEND&color=000000&logo=GO&logoColor=ffffff&style=flat-square)
+![TYPESCRIPT](https://img.shields.io/static/v1?label=TYPESCRIPT&labelColor=2cd039&message=FRONTEND&color=000000&logo=GO&logoColor=ffffff&style=flat-square)
 ![TURBOREPO](https://img.shields.io/static/v1?label=TURBO&labelColor=2cd039&message=REPO&color=000000&logo=TURBOREPO&logoColor=ffffff&style=flat-square)
 
-# OMNILINK
+# 🔗 OMNILINK 🌎
 
 Save links from anywhere at anytime
 
-## About the repository
+## 📚 About the repository
 
 This is a monorepo that uses turborepo. In that project turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
+
+Is there a specific reason to use a monorepo instead of multiple repositories in this project? NO... It's just for the sake of curiosity 👍
 
 ### Apps and Packages
 
 - `web`: A [Next.js](https://nextjs.org) app for the frontend
-- `backend`: A [Fastify](https://www.fastify.io/) app for the backend since I'm not using NextJS API routes this time
+- `backend`: A [GO](https://www.go.dev/) app for the backend since I'm not using NextJS API routes this time
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% ![TYPESCRIPT](https://img.shields.io/static/v1?label=&labelColor=2cd039&message=+TYPESCRIPT&color=000000&logo=TYPESCRIPT&logoColor=ffffff&style=flat-square).
+Some of the packages are done in Typescript and others in GO.
 
 ### Utilities
 
