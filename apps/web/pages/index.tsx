@@ -1,7 +1,3 @@
-export default function Web() {
-  return (
-    <div>
-      <h1>Web</h1>
-    </div>
-  );
+export default function HomePage() {
+  return <h1>Homepage</h1>;
 }
