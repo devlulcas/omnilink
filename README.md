@@ -1,5 +1,4 @@
 ![next.js](https://img.shields.io/static/v1?label=NEXT&labelColor=2cd039&message=FRONTEND&color=000000&logo=next.js&logoColor=ffffff&style=flat-square)
-![GO](https://img.shields.io/static/v1?label=GO&labelColor=2cd039&message=BACKEND&color=000000&logo=GO&logoColor=ffffff&style=flat-square)
 ![TYPESCRIPT](https://img.shields.io/static/v1?label=TYPESCRIPT&labelColor=2cd039&message=FRONTEND&color=000000&logo=GO&logoColor=ffffff&style=flat-square)
 ![TURBOREPO](https://img.shields.io/static/v1?label=TURBO&labelColor=2cd039&message=REPO&color=000000&logo=TURBOREPO&logoColor=ffffff&style=flat-square)
 
@@ -16,11 +15,8 @@ Is there a specific reason to use a monorepo instead of multiple repositories in
 ### Apps and Packages
 
 - `web`: A [Next.js](https://nextjs.org) app for the frontend
-- `backend`: A [GO](https://www.go.dev/) app for the backend since I'm not using NextJS API routes this time
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Some of the packages are done in Typescript and others in GO.
 
 ### Utilities
 
