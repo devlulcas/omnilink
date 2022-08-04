@@ -1,0 +1,14 @@
+{
+  "name": "screenshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main",
+  "scripts": {
+    "dev": "go run ./main.go",
+    "start": "./dist/main",
+    "build": "go build -o ./dist/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
