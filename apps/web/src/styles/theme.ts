@@ -9,8 +9,8 @@ const config: Partial<Theme> = {
     global: (props: any) => ({
       "html, body": {
         bgGradient: mode(
-          ["linear(to-tr, teal.200, green.300)"],
-          ["linear(to-tr, teal.800, green.800)"]
+          ["linear(to-tr, gray.300, gray.500)"],
+          ["linear(to-tr, gray.800, gray.800)"]
         )(props),
       },
       a: {
@@ -22,7 +22,7 @@ const config: Partial<Theme> = {
 
 export const defaultTheme = extendTheme(
   withDefaultColorScheme({
-    colorScheme: "green",
+    colorScheme: "gray",
   }),
   config
 );
