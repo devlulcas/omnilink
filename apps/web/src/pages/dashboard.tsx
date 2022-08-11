@@ -8,7 +8,6 @@ export default function Dashboard() {
     <Wrap
       alignItems={"center"}
       justifyContent="center"
-      outline="1px solid red"
       overflowY="scroll"
       minH="94vh"
       p="2rem"
