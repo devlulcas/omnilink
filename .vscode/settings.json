@@ -5,6 +5,7 @@
     "pnpm",
     "pnpx",
     "signin",
+    "signout",
     "turborepo",
     "zustand"
   ]
