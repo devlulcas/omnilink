@@ -7,7 +7,6 @@ import {
   Link,
   Divider,
 } from "@chakra-ui/react";
-
 import { FiSend } from "react-icons/fi";
 import NextLink from "next/link";
 import { EmailInput } from "../components/EmailInput";
