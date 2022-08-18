@@ -1,10 +1,15 @@
-import { Router } from "express";
+import { Request, Response, Router } from "express";
+import { JWTAuth } from "../middlewares/auth";
+
+function logIt(req: Request, res: Response) {
+  res.send({ passed: true });
+}
 
 const linkRouter = Router();
 
-linkRouter.get("/");
-linkRouter.delete("/");
-linkRouter.get("/:id");
-linkRouter.put("/:id");
+linkRouter.get("/", JWTAuth, logIt);
+linkRouter.delete("/", JWTAuth, logIt);
+linkRouter.get("/:id", JWTAuth, logIt);
+linkRouter.put("/:id", JWTAuth, logIt);
 
 export { linkRouter };

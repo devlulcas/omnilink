@@ -1,2 +1,4 @@
 dist/
 .env
+jwt.key
+jwt.key.pub
