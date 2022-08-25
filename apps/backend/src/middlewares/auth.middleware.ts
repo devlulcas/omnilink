@@ -1,7 +1,7 @@
 import "express-async-errors";
 import { NextFunction, Request, Response } from "express";
-import { HttpError } from "../../exceptions/http-error";
-import { validateToken } from "./utils";
+import { HttpError } from "../exceptions/http-error";
+import { validateToken } from "../lib/jwt.lib";
 
 export async function JWTAuth(req: Request, res: Response, next: NextFunction) {
   try {

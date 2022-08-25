@@ -3,11 +3,16 @@
     "target": "es2016",
     "module": "commonjs",
     "rootDir": ".",
+    "baseUrl": "./",
     "paths": {
-      "@routes/*": ["./src/routes/*"],
-      "@controllers/*": ["./src/controllers/*"],
-      "@entities/*": ["./src/entities/*"],
-      "@services/*": ["./src/services/*"]
+      "@routes/*": ["src/routes/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@entities/*": ["src/entities/*"],
+      "@services/*": ["src/services/*"],
+      "@exceptions/*": ["src/exceptions/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@lib/*": ["src/lib/*"],
+      "@/*": ["src/*"]
     },
     "outDir": "./dist/",
     "esModuleInterop": true,

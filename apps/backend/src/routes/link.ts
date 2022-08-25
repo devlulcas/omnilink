@@ -1,5 +1,5 @@
 import { Request, Response, Router } from "express";
-import { JWTAuth } from "../middlewares/auth";
+import { JWTAuth } from "../middlewares/auth.middleware";
 
 function logIt(req: Request, res: Response) {
   res.send({ passed: true });
